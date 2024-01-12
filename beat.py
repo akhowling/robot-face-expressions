@@ -9,10 +9,11 @@ import toml
 import pandas as pd
 from collections import OrderedDict
 
-with open(pathlib.Path.home() / '/workspaces/ros2/servo/src/pkg_servo/src/1_wayne_0_1_8.json') as f:
+#path to any json file from BEAT dataset
+with open(pathlib.Path.home() / '/1_wayne_0_1_8.json') as f:
   action_file = json.load(f)
 
-with open(pathlib.Path.home() / '/workspaces/ros2/servo/src/pkg_servo/src/config_beat.toml') as n:
+with open(pathlib.Path.home() / '/config_beat.toml') as n:
   joints_toml = toml.load(n)  
 
 # motor_ids=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,262,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51]
