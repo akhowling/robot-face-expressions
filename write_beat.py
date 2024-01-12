@@ -103,11 +103,6 @@ else:
     getch()
     quit()
 
-# id_arr=[101,102]
-# pos_arr=[1223,2767]
-# pos_arr=[3160,930] leftstretchforwward
-# pos_arr=[1930,2172] leftstretchbackward
-
 dyn_servos = [40,41,42]
 # dyn_servos = []
 for id in dyn_servos:
@@ -136,14 +131,11 @@ def run_servo(res):
     packetHandler.groupSyncWrite.clearParam()
     # portHandler.closePort()
 
-# def test():
-#     print()
-
 def callback(msg):
     received_message = msg.data
     cleaned_str1 = received_message[0].replace("OrderedDict", "")
     res1 =ast.literal_eval(cleaned_str1)
-    print('RESSSS', res1)
+    print('Result', res1)
     run_servo(res1)
     # print(f"Received message: {run_servo(res)}")
     # print(msg)
