@@ -1,236 +1,202 @@
 [browDownLeft]
-ria = "BrowInnerLeft"
 motor_id = 1
 hardware = "feetech"
 min = 2628
 max = 2014
 
 [browDownRight]
-ria = "BrowInnerRight"
 motor_id = 3
 hardware = "feetech"
 min = 2154
 max = 2682
 
 [browInnerUp]
-ria = "BrowCenter"
 motor_id = 2
 hardware = "feetech"
 min = 1700
 max = 2450
 
 [browOuterUpLeft]
-ria = "BrowOuterLeft"
 motor_id = 0
 hardware = "feetech"
 min = 2274
 max = 2000
 
 [browOuterUpRight]
-ria = "BrowOuterRight"
 motor_id = 4
 hardware = "feetech"
 min = 1300
 max = 1770
 
 [cheekSquintLeft]
-ria = "CheekSquintLeft"
 motor_id = 5
 hardware = "feetech"
 min = 2300
 max = 1470
 
 [cheekSquintRight]
-ria = "CheekSquintRight"
 motor_id = 6
 hardware = "feetech"
 min = 1820
 max = 2660
 
 [eyeLookDownLeft]
-ria = "eyesupdownleft"
 motor_id = 105
 hardware = "feetech"
 min = 1889
 max = 2015
 
 [eyeLookDownRight]
-ria = "eyesupdownright"
 motor_id = 106
 hardware = "feetech"
 min = 1960
 max = 2040
 
 [eyeLookUpLeft]
-ria = "eyesupdownleft"
 motor_id = 105
 hardware = "feetech"
 min = 2015
 max = 2078
 
 [eyeLookUpRight]
-ria = "eyesupdownright"
 motor_id = 106
 hardware = "feetech"
 min = 2040
 max = 2200
 
 [eyeLookInLeft]
-ria = "EyeTurnLeft"
 motor_id = 14
 hardware = "feetech"
 min = 2130
 max = 1730
 
 [eyeLookOutLeft]
-ria = "EyeTurnLeft"
 motor_id = 14
 hardware = "feetech"
 min = 2530
 max = 2130
 
 [eyeLookInRight]
-ria = "EyeTurnRight"
 motor_id = 15
 hardware = "feetech"
 min = 1715
 max = 2027
 
 [eyeLookOutRight]
-ria = "EyeTurnRight"
 motor_id = 15
 hardware = "feetech"
 min = 2027
 max = 2340
 
 [jawOpen]
-ria = "Jaw"
 motor_id = 40
 hardware = "dynamixel"
 min = 1900
 max = 2460
 
 [mouthFrownLeft]
-ria = "lowerleft"
 motor_id = 102
 hardware = "feetech"
 min = 2888
 max = 1924
 
 [mouthFrownRight]
-ria = "lowerright"
 motor_id = 104
 hardware = "feetech"
 min = 1497
 max = 2438
 
 [mouthStretchLeft]
-ria = "lowerleft"
 motor_id = 102
 hardware = "feetech"
 min = 2888
 max = 1924
 
 [mouthStretchRight]
-ria = "lowerright"
 motor_id = 104
 hardware = "feetech"
 min = 1497
 max = 2438
 
 [mouthLowerDownLeft]
-ria = "LowerLipLeft"
 motor_id = 23
 hardware = "feetech"
 min = 1780
 max = 2150
 
 [mouthLowerDownRight]
-ria = "LowerLipRight"
 motor_id = 25
 hardware = "feetech"
 min = 2117
 max = 2490
 
 [mouthSmileLeft]
-ria = "upperleft"
 motor_id = 101
 hardware = "feetech"
 min = 1399
 max = 942
 
 [mouthSmileRight]
-ria = "upperright"
 motor_id = 103
 hardware = "feetech"
 min = 2481
 max = 3044
 
 [mouthPressLeft]
-ria = "upperleft"
 motor_id = 101
 hardware = "feetech"
 min = 1399
 max = 942
 
 [mouthPressRight]
-ria = "upperright"
 motor_id = 103
 hardware = "feetech"
 min = 2481
 max = 3044
 
 [mouthUpperUpLeft]
-ria = "UpperLipLeft"
 motor_id = 20
 hardware = "feetech"
 min = 1718
 max = 2100
 
 [mouthUpperUpRight]
-ria = "UpperLipRight"
 motor_id = 22
 hardware = "feetech"
 min = 1610
 max = 2130
 
 [noseSneerLeft]
-ria = "SneerLeft"
 motor_id = 30
 hardware = "feetech"
 min = 1916
 max = 2450
 
 [noseSneerRight]
-ria = "SneerRight"
 motor_id = 31
 hardware = "feetech"
 min = 2081
 max = 2660
 
 [eyeBlinkLeft]
-ria = "UpperLidLeft"
 motor_id = 10
 hardware = "feetech"
 min = 2252
 max = 2742
 
 [eyeWideLeft]
-ria = "LowerLidLeft"
 motor_id = 12
 hardware = "feetech"
 min = 1980
 max = 2470
 
 [eyeBlinkRight]
-joint_name = "UpperLidRight"
 motor_id = 11
 hardware = "feetech"
 min = 1478
 max = 2174
 
 [eyeWideRight]
-joint_name = "LowerLidRight"
 motor_id = 13
 hardware = "feetech"
 min = 2324
